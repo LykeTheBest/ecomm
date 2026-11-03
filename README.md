@@ -304,7 +304,7 @@ interface PaymentInterface
 
 - [ ] **PayTR integration** is a stub; `verifyCallback()` currently returns `true` and must be implemented properly
 - [ ] The `/payment/callback` route points to a `CheckoutController::callback()` method that does not exist yet
-- [ ] Password reset: the email is sent, but the reset page/route that consumes the token is not implemented, and the forgot-password routes are not registered in `web.php`
+- [ ] Password reset: the email is not sent, and the reset page/route that consumes the token is not implemented, and the forgot-password routes are not registered in `web.php`
 - [ ] Address routes used by the profile page (`/profil/adres-ekle`, `/profil/adres-sil/{id}`) and `/resend-verification` are not registered in `web.php`
 - [ ] Admin delete actions (`/admin/categories/delete/{id}`, `/admin/products/delete/{id}`) use **GET** and have no CSRF protection – switch to POST
 - [ ] Checkout does not yet process the `saved_address_id` option for logged-in users, and the payment-method selection UI is a placeholder
