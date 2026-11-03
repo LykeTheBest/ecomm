@@ -1,6 +1,6 @@
 # My Shop – Lightweight PHP E-Commerce Platform
 > [Turkish](./README.tr.md)
-> [Turkish](./README.md)
+> [English](./README.md)
 
 A custom-built, framework-free e-commerce application written in **plain PHP (MVC)**. It ships with a storefront, guest and registered checkout, a role-based admin panel, stock-safe order handling, a configurable settings system (maintenance mode, sales toggle, payment methods) and a pluggable payment layer (PayTR skeleton included).
 
